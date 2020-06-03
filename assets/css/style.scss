@@ -1,0 +1,142 @@
+---
+---
+@import "bubbles";
+
+
+html, body {
+    background-color: #e3e3e3;/*#1f2833;*//*#161b40;*/ /*#4E6480*/
+    margin:0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, .hero-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding-left: 3px;
+}
+
+#hero-container {
+    background-color: #005B96;
+    position:relative;
+}
+
+#hero-banner {
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+
+#bubble-container {
+    background-color: none;
+    z-index: -100;
+}
+
+.hero-text {
+    font-size:64px;
+}
+
+.hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+}
+
+.hero-icon {
+    object-fit: contain;
+    height: 32px;
+}
+
+.hero-icon:hover {
+    cursor:pointer;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .hero-text {
+         font-size: 84px;
+     }
+    .hero-icon {
+        height: 48px;
+    }
+    .hero-subtitle {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+     .hero-text {
+         font-size: 108px;
+     }
+    .hero-icon {
+        height: 48px;
+    }
+    .hero-subtitle {
+        font-size: 32px;
+    }
+}
+
+#profile-img {
+    width:100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.odd-content-pane {
+    background-color: #F6F6F6;
+}
+
+.misc-img {
+    width:100%;
+}
+
+#profile-pic-div {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-icon {
+    font-size: 36px !important;
+}
+
+.contact-text {
+    font-size: 24px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.highlighted {
+    color: #005B96;
+}
+
+.lang-text {
+    font-weight: bold;
+}
+
+.external-img-link:hover {
+    cursor: pointer;
+}
+
+.img-shadow {
+    box-shadow:0 0 10px #999;
+}
+
+.sub-lang {
+    padding-left: 2em;
+    
+}
+
+tr{
+    border-top: hidden;
+}
